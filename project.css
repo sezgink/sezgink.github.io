@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+img, object, embed, video {
+	max-width: 100%;
+}
+.ie6 img {
+	width:100%;
+}
+
+
+/* Mobile Layout: 480px and below. */
+
+.horizontal{
+
+}
+
+.card {
+	/* Add shadows to create the "card" effect */
+	margin-top: 20px;
+
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	transition: 0.3s;
+	width: 15% ;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+	box-shadow: 0 16px 32px 0 rgba(0,0,0,0.4);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+	padding: 2px 16px;
+  }
+
+  @media screen and (max-width: 1200px) {
+	.card {
+	  width: 40%;
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	  margin-right: 5%;
+	  transition: 0.3s;
+
+	}
+  }
+  @media screen and (max-width: 600px) {
+	.card {
+	  width: 100%;
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	  margin-right: 5%;
+	  transition: 0.3s;
+
+	}
+  }
+
+  
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.36%;
+	padding-left: 1.82%;
+	padding-right: 1.82%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+.gridContainer {
+	width: 90.675%;
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+.gridContainer {
+	width: 88.2%;
+	max-width: 1232px;
+	padding-left: 0.9%;
+	padding-right: 0.9%;
+	margin: auto;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+.p1 {
+	font-size: 15pt
+}

@@ -1,1 +1,157 @@
-Welcome to my page lol
+<!DOCTYPE html>
+<html>
+<head>
+
+  
+  <title>Welcome!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--
+  
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+  -->
+  
+  <link rel="stylesheet" href="fluid.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script>
+  function openPage(adress) {
+    document.location=adress;
+  }
+  </script>
+  
+  <style>
+  body {
+      position: relative; 
+  }
+  #me {padding-top:50px;height:700px;color: #fff; background-color: #1E88E5;}
+  /*  #me {padding-top:50px;padding-bottom: 30px;color: #fff; background-color: #1E88E5;} */
+  #projects {padding-top:50px;color: #fff; background-color: #673ab7; padding-bottom: 30px}
+  /*#projects {padding-top:50px;height:700px;color: #fff; background-color: #673ab7;} */
+  #about {padding-top:25px; padding-bottom: 15px ;color: #fff; background-color: #7e4b00;}
+  /*   #about {padding-top:25px; padding-bottom: 15px ;color: #fff; background-color: #ff9800;} */
+  #contact {padding-top:50px;height:230px;color: #fff; background-color: #00bcd4;}
+
+  .bg-4 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+    
+  </style>
+  
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">S.Sezgin Kutlu</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right " style="margin-right: 10px">
+          <li><a href="#me">Me</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          
+          <li><a href="#contact">Contact</a> </li>
+        </ul> 
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="me" class="container-fluid text-center" style="">
+  <!-- <h1>Ben Kimim?</h1> -->
+
+<br>
+<!--
+<img src="images/angel.jpg" class="img-responsive img-circle center-block" style="width:%15; display-inline" alt="Bird" >
+-->
+<img src="images/angel.jpg" class="img-responsive img-circle center-block" style="width:%15; display-inline" alt="Bird" >
+
+<h1>Sertan Sezgin Kutlu</h1>
+<h3>Game Designer, Developer and Entrepreneur</h3>
+</div>
+
+<div id="about" class="container-fluid text-center">
+  <h1>About Me</h1>
+  <p class="p1" style="text-align: left">In this journey called life, I have really enjoyed when discover or realize something.
+     Finding connections in life is a passion for me. 
+     <p class="p1" style="text-align: left">I like music and composing it. Because it is a solid sample of finding connections, harmony of notes 
+    and their combinational awesomeness inspired me to bring steps further with harmony. </p>
+    <p class="p1" style="text-align: left">I always liked to dream and feel that world in dreams. That made me like to play games which have their mechanics and world rules. 
+    They had their own reality and rules players should adapt. I liked that journey, then I realized we can create these realities come from our own dreams.
+    Then I started to design games 10 years ago. In that age, my capability to implement my designs hasn't
+    built yet.</p>
+    <p class="p1" style="text-align: left">I have inspired from changes and leaps in the world and see how it has been developed, I inspired about bring something new with a team and make the world a better place. </p>
+    <p class="p1" style="text-align: left">A musical background helped me to see aesthetic lines of the piece and organize soundscape. By the way, I learned how to program and how to make art while the years were passing. While learning know-how, experienced developing various applications on web and mobile platforms. See how can we touch the people and make their life better, and how does experience is designed.
+      <p class="p1" style="text-align: left">In my college years, I have worked about AI dynamics to oversee where can AI bring us in the future. It was fun to discover many details about the concept of AI. And the effect of it will be multiplied every year.</p>
+    <p class="p1" style="text-align: left"> While I was overseeing these concepts, I was making trials to implement my games to review how they feel like. And now continuing game design and development. I am trying to make fun to play casual games currently to reveal pieces and have people fun who playing games that I contribute my time and precious love.
+  </p>
+  <p class="p1"> I am an entrepreneur who is interested in designing and development of fun to play games right now. </p>
+  
+  
+</div>
+<div id="projects" class="container-fluid text-center" style="">
+  <div id="father" style="width: 100%">
+    <h1>Projects</h1>
+    <p>List of active projects</p>
+  </div>
+  <div style="display: flex; flex-direction:row; width: 100%; border-style: dotted; flex-wrap: wrap; justify-content: center; align-items: center">
+
+    <div class="card" style="cursor:pointer;" onclick="openPage('project.html')" >
+        <img src="images/androidLogo.jpg" alt="Avatar" style="width:100%" >
+        <div class="container" style="width:100%">
+          <h4><b>A project</b></h4>
+          <p>Mobile Arcade / Hyper-Casual</p>
+          <div class="fa fa-3x fa-check" style="color: green; padding: 0;padding-top: 5px; margin: 0; background-color: rgba(128, 128, 128, 0.541); border-radius: 50%;"></div>
+          <!--
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+          -->
+        </div>
+      </div>
+
+      </div>
+    </div>
+</div>
+<div id="contact" class="container-fluid text-center">
+  <h1>Contact</h1>
+  
+  <p>E-Mail: sezginkutlu00@gmail.com </p>
+  <a href="https://www.facebook.com/sezgin1kutlu" class="fa fa-2x fa-facebook"></a>
+  <a href="https://twitter.com/sezginsertan" class="fa fa-2x fa-twitter"></a>
+  <a href="https://www.linkedin.com/in/sertan-sezgin-kutlu-285048a1/" class="fa fa-2x fa-linkedin"></a>
+  <a href="https://www.instagram.com/sezgin_kutlu" class="fa fa-2x fa-instagram"></a>
+  <a href="mailto:sezginkutlu00@gmail.com" class="fa fa-2x fa-envelope"></a>
+  
+</div>
+<footer class="container-fluid bg-4 text-center">
+    
+
+    
+    <p>S. Sezgin Kutlu</p> 
+</footer>
+<!--
+<div class="panel panel-footer">
+<p>S.Sezgin Kutlu</p>
+</div>
+-->
+</body>
+</html>
