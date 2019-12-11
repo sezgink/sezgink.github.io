@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  
+  <title>Climb Up 3D | Platform Redirect</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--
+  
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+  -->
+  
+  <link rel="stylesheet" href="project.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script>
+      function getMobileOperatingSystem() {
+        var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+      
+         
+      
+          if (/android/i.test(userAgent)) {
+              return "Android";
+          }
+      
+          // iOS detection from: http://stackoverflow.com/a/9039885/177710
+          if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+              return "iOS";
+          }
+      
+          return "unknown";
+      }</script>
+  <script>
+        function DetectAndServe(){
+            let os = getMobileOperatingSystem();
+            if (os == "Android") {
+                window.location.href = "https://play.google.com/store/apps/details?id=com.sertankutlu.climbup3dandroid"; 
+            } else if (os == "iOS") {
+                window.location.href = "https://apps.apple.com/tr/app/climb-up-3d/id1484262001";
+            }  else {
+                window.location.href = "https://ssezginkutlu.com/climbup3d";
+            }
+        }
+        </script>
+        </head>
+        
+
+  <script>
+  function openPage(adress) {
+    document.location=adress;
+  }
+  </script>
+  
+  <style>
+  body {
+      position: relative; 
+  }
+  #section1 {padding-top:50px; padding-bottom: 25px; margin-top: 25px ;color: #fff; background-color: #1E88E5;}
+  #section4 {padding-top:5px; padding-bottom: 10px ; color: #fff; background-color: #33c915;}
+
+  .bg-4 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+    
+  </style>
+  
+</head>
+
+<body onload="DetectAndServe()" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html#">S.Sezgin Kutlu</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right " style="margin-right: 10px">
+          <li><a href="index.html#me">Me</a></li>
+          <li><a href="index.html#about">About</a></li>
+
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a> </li>
+
+  
+        </ul> 
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="section1" class="container-fluid text-center" style="">
+    <div id="SS" style="display: flex; flex-direction:row;  flex-wrap: wrap; justify-content: center; align-items: center">
+            <div class="card" >
+                    <img src="images/climbup3d/ss(4).png" alt="Avatar" style="width:100%">
+                  </div>
+    </div>
+  <div id="father" style="width: 100%">
+    <h1>Climb Up 3D</h1>
+    <h3>Mobile Arcade / Hyper-Casual Game</h3>
+    <p class="p1" style="text-align: left">
+      Climb Up 3D is a mobile game that based on mechanic of swipe controlled character that runs from obstacles and traps.
+       Players can destroy many obstacles as they can or pass them with ultimate speeds by using collectible power-ups to multiply
+       points and fun of play.
+    </p>
+   
+  </div>
+ 
+ 
+
+</div>
+
+<div id="section4" class="container-fluid text-center">
+  <h1>Contact</h1>
+  <p>E-Mail: sezginkutlu00@gmail.com </p>
+  
+</div>
+<footer class="container-fluid bg-4 text-center">
+    <p>S. Sezgin Kutlu</p> 
+</footer>
+<!--
+<div class="panel panel-footer">
+<p>S.Sezgin Kutlu</p>
+</div>
+-->
+</body>
+</html>
