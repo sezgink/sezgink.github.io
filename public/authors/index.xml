@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Sertan Sezgin Kutlu</title>
+    <link>sezgink.github.io/authors/</link>
+    <description>Recent content in Authors on Sertan Sezgin Kutlu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 15 Feb 2023 22:27:20 +0300</lastBuildDate><atom:link href="sezgink.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sertan</title>
+      <link>sezgink.github.io/authors/sertan/</link>
+      <pubDate>Wed, 15 Feb 2023 22:27:20 +0300</pubDate>
+      
+      <guid>sezgink.github.io/authors/sertan/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sertan Sezgin Kutlu</title>
+    <link>sezgink.github.io/</link>
+    <description>Recent content on Sertan Sezgin Kutlu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 15 Feb 2023 22:27:20 +0300</lastBuildDate><atom:link href="sezgink.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>sezgink.github.io/about/</link>
+      <pubDate>Fri, 17 Feb 2023 21:31:32 +0300</pubDate>
+      
+      <guid>sezgink.github.io/about/</guid>
+      <description>I am Sertan Sezgin Kutlu, a software engineer which is made projects on deep learning systems, data mining, backend development, singleplayer and multiplayer games.
+EducationLink to heading2014-2019 Istanbul Technical University - B. Sc. Electronics and Communication Engineering Implemented facial expression recognition systems with Convolutional Neural Network based detectors then compared their performance and accuracy as graduation project. Developed an auto data mining system to convert supervised learning process to semi-supervised.</description>
+    </item>
+    
+    <item>
+      <title>Age of Hugo In My Personal Website</title>
+      <link>sezgink.github.io/posts/about-hugo/</link>
+      <pubDate>Wed, 15 Feb 2023 22:27:20 +0300</pubDate>
+      
+      <guid>sezgink.github.io/posts/about-hugo/</guid>
+      <description>I migrated my personal web-site to Hugo framework from a bootstrap web-site. So I can easily manage blog in a statically generated web-site. It has many nice templates which are free for commercial use and made by the community. This makes creating of a website for a purpose very fast. Creating and editing blog posts as .md (Markdown) files which is useful.
+Visit the Hugo website for more details about hugo.</description>
+    </item>
+    
+  </channel>
+</rss>
