@@ -18,17 +18,17 @@ I am Sertan Sezgin Kutlu, a software engineer which is made projects on deep lea
 
 ## Projects and Achivements
 
-* **2016 September-2017 June | Istanbul Technical University ITUNOM UAS Team - AUVSI SUAS 2017 4th place in 52 international teams** \
+* **September 2016-June 2017 | Istanbul Technical University ITUNOM UAS Team - AUVSI SUAS 2017 4th place in 52 international teams** \
     Worked on networking, interoperability system, embedded system programming, geolocation and image processing in the team.
 
 ## Commercial Experience
-* **March 2020-January 2023 | Intense Moment Game Studio - Game and Devtools Developer/Co-Founder** 
-    * Worked on 45+ gameplay programming, dev tool development, shader development, game design, 3d modeling. 
+* **March 2020-January 2023 | Intense Moment Game Studio - Game and Devtool Developer/Co-Founder** 
+    * Worked on 45+ gameplay programming, dev-tool development, shader development, game design, 3d modeling. 
     * Managed relations with publisher companies we work with. 
     * You can find more details about Intense Moment at [here](https//intensemoment.com). 
 * **June 2019-July 2019 | Sarente - Front-End Developer Intern** 
     * Implemented React components and pages on the ReactJS framework for a gamification project. 
     * Designed and implemented a customizable avatar system using Three.js JavaScript 3D graphics library, then integrated the system as a ReactJS component.
-* **June 2018 -July 2018 | Argela - Android Developer Intern** 
+* **June 2018-July 2018 | Argela - Android Developer Intern** 
     * Implemented components for an ongoing application project on Android platform.
     * Researched XMPP(Extensible Messaging and Presence Protocol) implementations and P2P networking alternatives for a client-server model.
