@@ -23,7 +23,8 @@ I am Sertan Sezgin Kutlu, a software engineer which is made projects on deep lea
 
 ## Commercial Experience
 * **March 2020-January 2023 | Intense Moment Game Studio - Game and Devtool Developer/Co-Founder** 
-    * Worked on 45+ gameplay programming, dev-tool development, shader development, game design, 3d modeling. 
+    * Worked on gameplay programming, dev-tool development, shader development, game design, 3d modeling.
+    * Worked on 45+ mobile games. 
     * Managed relations with publisher companies we work with. 
     * You can find more details about Intense Moment at [here](https://intensemoment.com). 
 * **June 2019-July 2019 | Sarente - Front-End Developer Intern** 
