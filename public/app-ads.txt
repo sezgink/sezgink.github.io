@@ -3,6 +3,10 @@ facebook.com, 491608386066639, RESELLER, c3e20eee3f780d68
 facebook.com, 375833661200320, RESELLER, c3e20eee3f780d68
 facebook.com, 1727699027577103, RESELLER, c3e20eee3f780d68
 facebook.com, 1270905070321140, RESELLER, c3e20eee3f780d68
+#Facebook business account
+facebook.com, 137546817632255, RESELLER, c3e20eee3f780d68
+#Bubble blaster appId
+facebook.com, 808342037582230, RESELLER, c3e20eee3f780d68
 
 #Appodeal related
 #Updated Oct6th, 2022
