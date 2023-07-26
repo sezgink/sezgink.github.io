@@ -4,7 +4,7 @@ date: 2023-02-17T21:31:32+03:00
 draft: false
 ---
 
-I am Sertan Sezgin Kutlu, a software engineer which is made projects on deep learning systems, data mining, backend development, singleplayer and multiplayer games.
+I am Sertan Sezgin Kutlu, a software engineer which is made projects on deep learning systems, data mining, backend development, single-player and multi-player games.
 
 ## Education
 
